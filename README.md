@@ -38,8 +38,10 @@ Här är några områden du kan fokusera på när du går igenom projektet:
 För att komma igång med projektet:
 1. Gör en fork av detta repo: `Practice4Students-FilmRental` till ditt eget GitHub-konto.
 2. Klona din fork lokalt: `git clone https://github.com/ditt-användarnamn/Practice4Students-FilmRental.git`
-3. Navigera till projektmappen och kör: `dotnet run`
-4. API-dokumentation finns tillgänglig via Swagger på `https://localhost:7127/swagger`
+3. Skapa en migration genom att skriva: `add-migration init` i Package Manager Console.
+4. Skapa databasen genom att skriva: `update-database` i Package Manager Console.
+5. Nu kan du starta appen och kan testa alla endpoints.
+6. APIets UI når du via Swagger på `https://localhost:7127/swagger`
 
 ## 💡 Uppmuntran
 - Samarbeta gärna med andra! Diskutera koden, utmana varandras lösningar och dela idéer om förbättringar. Tillsammans kan ni lära er ännu mer och skapa en bättre slutprodukt.
