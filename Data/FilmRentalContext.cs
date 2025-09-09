@@ -1,9 +1,11 @@
 ﻿using FilmRental.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace FilmRental.Data
 {
-    public class FilmRentalContext : DbContext
+    public class FilmRentalContext : IdentityDbContext<IdentityUser>
     {
         public FilmRentalContext(DbContextOptions<FilmRentalContext> options) : base(options)
         {
